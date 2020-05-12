@@ -1,0 +1,24 @@
+{
+  "name": "incr-version",
+  "version": "1.0.0",
+  "description": "GitHub Actions to increment version number in version.txt. The file has majorVer.minorVer.buildNumber",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gopala000/incr-version.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gopala000/incr-version/issues"
+  },
+  "homepage": "https://github.com/gopala000/incr-version#readme",
+  "dependencies": {
+    "@actions/core": "^1.2.4",
+    "@actions/github": "^2.2.0"
+  }
+}
